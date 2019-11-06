@@ -1,0 +1,6 @@
+script#caching {
+  content: "<script class=\"extras\" type=\"text/javascript\">localStorage.clear()br-consoleLog('You are currently NOT caching your styles.', 'warn')br-</script>";
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+#sf-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+#push {
+  height: 3em;
+}
+.container.main {
+  overflow: auto;
+  padding-bottom: 3em;
+}
+footer#footer {
+  position: relative;
+  margin-top: -3em;
+  height: 3em;
+  clear: both;
+}
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+html.lt-ie7 #wrap {
+  display: table;
+  height: 100%;
+}

@@ -1,0 +1,24 @@
+.lruf-item {
+
+}
+
+.lruf-item:hover {
+	background-color: #eee;
+}
+
+.lruf-tags a:hover {
+	text-decoration: none;
+}
+
+.lruf-date-bar {
+	border-bottom: 1px solid gray;
+	margin-bottom: 8px;
+}
+
+.lruf-item small {
+	color: #999;
+}
+
+.navbar .brand {
+	color: #6fa;
+}
